@@ -157,6 +157,13 @@ main {
     display: block;
   }
 }
+@font-face {
+  font-family: "kjv1611regular";
+  src: url("kjv1611-webfont.woff2") format("woff2"),
+    url("kjv1611-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 button {
   background-color: var(--black);
@@ -192,14 +199,14 @@ button:active {
 }
 
 #logo {
-  font-family: "KJV1611";
+  font-family: "kjv1611regular";
   font-size: 48px;
   padding-bottom: 0;
 }
 
 #large-text {
-  font-size: 10vw;
-  font-family: "KJV1611";
+  font-size: 9.5vw;
+  font-family: "kjv1611regular";
   text-decoration: none;
   color: white;
   -webkit-text-stroke-width: 2px;
