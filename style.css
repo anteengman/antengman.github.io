@@ -175,6 +175,9 @@ input {
 input:focus {
   border-color: var(--pink);
 }
+input.radio {
+  accent-color: var(--pink);
+}
 
 button:hover {
   background-color: white;
