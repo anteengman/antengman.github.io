@@ -230,10 +230,6 @@ button:active {
   height: 100px;
 }
 
-#snoopy-gif {
-  padding-bottom: 24px;
-}
-
 footer ul {
   display: flex;
   justify-content: space-between;
