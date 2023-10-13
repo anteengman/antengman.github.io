@@ -152,6 +152,8 @@ main {
   }
   .container {
     width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
   }
   .media-container {
     display: block;
@@ -232,9 +234,12 @@ button:active {
 
 footer ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  justify-content: space-evenly;
   list-style: none;
   padding: 0;
+  gap: 12px;
 }
 
 footer {
