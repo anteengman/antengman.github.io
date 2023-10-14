@@ -249,3 +249,18 @@ footer {
   position: sticky;
   top: 0;
 }
+
+.mockup {
+  width: 450px;
+}
+
+.mockup-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.underline {
+  text-decoration: underline;
+}
