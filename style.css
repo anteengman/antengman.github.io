@@ -16,8 +16,12 @@ MARQUEE {
   background-color: var(--green);
 }
 
+html,
 body {
   overflow-x: hidden;
+}
+body {
+  position: relative;
 }
 h1 {
   font-size: 3em;
