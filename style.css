@@ -30,6 +30,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-weight: 100;
+  margin: 0;
 }
 h3 {
   font-size: 1.2em;
@@ -107,6 +108,14 @@ main {
   padding: 24px 0 24px 0;
 }
 
+.container-no-p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 0;
+}
+
 .form-container {
   display: flex;
   justify-content: center;
@@ -151,10 +160,6 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
-  header ul {
-    display: block;
-    text-align: center;
-  }
   footer ul {
     display: block;
     /* align-content: flex-start; */
@@ -165,11 +170,20 @@ main {
     padding-left: 18px;
     padding-right: 18px;
   }
+  .container-no-p {
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
   .media-container {
     display: block;
   }
   #large-text a {
     font-size: 9vw;
+  }
+  .dropdown-content {
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -278,4 +292,19 @@ footer {
 
 .underline {
   text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
