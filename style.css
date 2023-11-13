@@ -73,11 +73,8 @@ header ul {
   top: 0;
 }
 .list-group ul {
-  display: flex;
-  justify-content: space-between;
   list-style: none;
   padding: 0;
-  gap: 24px;
 }
 li {
   padding: 0 10px;
@@ -113,7 +110,7 @@ main {
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  padding: 0;
+  padding: 8px px;
 }
 
 .form-container {
@@ -184,6 +181,9 @@ main {
   .dropdown-content {
     display: flex;
     flex-direction: row;
+  }
+  iframe {
+    height: 200px;
   }
 }
 
